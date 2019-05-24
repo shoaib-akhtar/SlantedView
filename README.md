@@ -5,6 +5,7 @@ SBASlantedView is a simple and easy-to-use Slanted View for your iOS apps writte
 
 
 [![](https://raw.githubusercontent.com/shoaib-akhtar/SlantedView/master/images/1-small.png)](https://raw.githubusercontent.com/shoaib-akhtar/SlantedView/master/images/1.png)
+[![](https://raw.githubusercontent.com/shoaib-akhtar/SlantedView/master/images/2.png)](https://raw.githubusercontent.com/shoaib-akhtar/SlantedView/master/images/2.png)
 
 
 Installation
