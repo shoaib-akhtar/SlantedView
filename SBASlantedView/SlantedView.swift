@@ -10,15 +10,15 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class SlantedView: UIView {
+public class SlantedView: UIView {
     
-    @IBInspectable var slantHeight: CGFloat = -15 { didSet { updatePath() } }
-    @IBInspectable var rotation: CGFloat = -45 { didSet { updateLabel() } }
-    @IBInspectable var labelBottomOffset: CGFloat = 25 { didSet { updateLabel()} }
-    @IBInspectable var text: String = "For Sale" { didSet { updateLabel()} }
-    @IBInspectable var textColor: UIColor = .white { didSet { updateLabel()} }
-    @IBInspectable var fontSize: CGFloat = 13 { didSet { updateLabel()} }
-    @IBInspectable var isSemiBold: Bool = true { didSet { updateLabel()} }
+    @IBInspectable public var slantHeight: CGFloat = -15 { didSet { updatePath() } }
+    @IBInspectable public var rotation: CGFloat = -45 { didSet { updateLabel() } }
+    @IBInspectable public var labelBottomOffset: CGFloat = 25 { didSet { updateLabel()} }
+    @IBInspectable public var text: String = "For Sale" { didSet { updateLabel()} }
+    @IBInspectable public var textColor: UIColor = .white { didSet { updateLabel()} }
+    @IBInspectable public var fontSize: CGFloat = 13 { didSet { updateLabel()} }
+    @IBInspectable public var isSemiBold: Bool = true { didSet { updateLabel()} }
 
     
     
@@ -31,7 +31,7 @@ class SlantedView: UIView {
         return shapeLayer
     }()
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         updatePath()
     }
@@ -47,7 +47,7 @@ class SlantedView: UIView {
         addLabel()
     }
     
-    override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         addLabel()
     }
