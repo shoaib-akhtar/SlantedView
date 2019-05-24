@@ -25,4 +25,4 @@ Congratulations! You're done.
 License
 -------
 
-SBAProgressHud is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
+SBASlantedView is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
