@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -440,20 +441,20 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="offer" translatesAutoresizingMaskIntoConstraints="NO" id="yq5-do-mR0">
-                                                    <rect key="frame" x="8" y="15" width="70" height="70"/>
+                                                    <rect key="frame" x="20" y="15" width="70" height="70"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="70" id="M2O-Fq-GcK"/>
                                                         <constraint firstAttribute="height" constant="70" id="o7Y-6g-eAO"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5EA-Xd-7xv">
-                                                    <rect key="frame" x="86" y="35" width="312" height="30"/>
+                                                    <rect key="frame" x="98" y="35" width="288" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                     <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0YF-Hw-mot" customClass="SlantedView" customModule="SlantedView" customModuleProvider="target">
-                                                    <rect key="frame" x="8" y="15" width="60" height="60"/>
+                                                    <rect key="frame" x="20" y="15" width="60" height="60"/>
                                                     <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="0YF-Hw-mot" secondAttribute="height" multiplier="1:1" id="6wl-cd-cy8"/>
@@ -543,20 +544,20 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="offer" translatesAutoresizingMaskIntoConstraints="NO" id="m7e-Fw-9mB">
-                                                    <rect key="frame" x="20" y="15" width="70" height="70"/>
+                                                    <rect key="frame" x="8" y="15" width="70" height="70"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="70" id="NbF-NZ-eyL"/>
                                                         <constraint firstAttribute="height" constant="70" id="uhC-QA-aAF"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Gp-c3-04P">
-                                                    <rect key="frame" x="98" y="35" width="288" height="30"/>
+                                                    <rect key="frame" x="86" y="35" width="312" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                     <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RUu-BP-p4z" customClass="SlantedView" customModule="SlantedView" customModuleProvider="target">
-                                                    <rect key="frame" x="20" y="15" width="60" height="60"/>
+                                                    <rect key="frame" x="8" y="15" width="60" height="60"/>
                                                     <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="8lu-yI-Hh1"/>
@@ -650,6 +651,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Z9-Xn-Y4V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-84.057971014492765" y="-6.0267857142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XEa-lN-aUq">
+            <objects>
+                <viewController id="8lM-HC-WwW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sAg-iH-r7D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpK-QT-m9f" customClass="SlantedView" customModule="SBASlantedView">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="VP0-3x-kvP"/>
+                                    <constraint firstAttribute="width" constant="240" id="a2F-7d-C4d"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VpK-QT-m9f" firstAttribute="centerY" secondItem="sAg-iH-r7D" secondAttribute="centerY" id="6HT-HW-0cb"/>
+                            <constraint firstItem="VpK-QT-m9f" firstAttribute="centerX" secondItem="sAg-iH-r7D" secondAttribute="centerX" id="rIT-GA-Rs0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DL8-Df-oOk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iog-vT-f93" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="-2"/>
         </scene>
     </scenes>
     <resources>

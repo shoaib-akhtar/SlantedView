@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-public class SlantedView: UIView {
+public class SBASlantedView: UIView {
     
     @IBInspectable public var slantHeight: CGFloat = -15 { didSet { updatePath() } }
     @IBInspectable public var rotation: CGFloat = -45 { didSet { updateLabel() } }

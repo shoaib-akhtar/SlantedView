@@ -14,7 +14,9 @@
 		489E86512296CB35009F4643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489E864F2296CB35009F4643 /* LaunchScreen.storyboard */; };
 		489E865C2296CB35009F4643 /* SlantedViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489E865B2296CB35009F4643 /* SlantedViewTests.swift */; };
 		489E86672296CB35009F4643 /* SlantedViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489E86662296CB35009F4643 /* SlantedViewUITests.swift */; };
-		489E86752296CB45009F4643 /* SlantedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489E86742296CB45009F4643 /* SlantedView.swift */; };
+		DFC6DDB7ED1D2C825F89304D /* Pods_SlantedViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C52DFAC03470F017AC22DF /* Pods_SlantedViewUITests.framework */; };
+		E97969B8EDE14D12B26C3D9A /* Pods_SlantedViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EB0C12AF5EC86043E3CCDF /* Pods_SlantedViewTests.framework */; };
+		EB097597864E8921E38B0475 /* Pods_SlantedView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA08247DEC6D04B8AB9AD6D /* Pods_SlantedView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		400D055371C5AF9E21C656AC /* Pods-SlantedViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlantedViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-SlantedViewUITests/Pods-SlantedViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		489E86432296CB33009F4643 /* SlantedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlantedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489E86462296CB33009F4643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		489E86482296CB33009F4643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +51,14 @@
 		489E86622296CB35009F4643 /* SlantedViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlantedViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489E86662296CB35009F4643 /* SlantedViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlantedViewUITests.swift; sourceTree = "<group>"; };
 		489E86682296CB35009F4643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		489E86742296CB45009F4643 /* SlantedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlantedView.swift; sourceTree = "<group>"; };
+		7518E75264E9E796BCE45B33 /* Pods-SlantedViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlantedViewUITests.release.xcconfig"; path = "Target Support Files/Pods-SlantedViewUITests/Pods-SlantedViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96A0EDD28F81982448CD2E88 /* Pods-SlantedView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlantedView.release.xcconfig"; path = "Target Support Files/Pods-SlantedView/Pods-SlantedView.release.xcconfig"; sourceTree = "<group>"; };
+		B4EB0C12AF5EC86043E3CCDF /* Pods_SlantedViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlantedViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96C3758DF789EF451543B3D /* Pods-SlantedViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlantedViewTests.release.xcconfig"; path = "Target Support Files/Pods-SlantedViewTests/Pods-SlantedViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0C52DFAC03470F017AC22DF /* Pods_SlantedViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlantedViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA08247DEC6D04B8AB9AD6D /* Pods_SlantedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlantedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBEAA1B19BF3E3555584E87 /* Pods-SlantedViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlantedViewTests.debug.xcconfig"; path = "Target Support Files/Pods-SlantedViewTests/Pods-SlantedViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2148DBF14BCF37B37D62737 /* Pods-SlantedView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlantedView.debug.xcconfig"; path = "Target Support Files/Pods-SlantedView/Pods-SlantedView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB097597864E8921E38B0475 /* Pods_SlantedView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97969B8EDE14D12B26C3D9A /* Pods_SlantedViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC6DDB7ED1D2C825F89304D /* Pods_SlantedViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				489E865A2296CB35009F4643 /* SlantedViewTests */,
 				489E86652296CB35009F4643 /* SlantedViewUITests */,
 				489E86442296CB33009F4643 /* Products */,
+				8BD1FEA4926F1C0AAE8CFF61 /* Pods */,
+				C81170B389DA322C7CFF3A60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +114,6 @@
 		489E86452296CB33009F4643 /* SlantedView */ = {
 			isa = PBXGroup;
 			children = (
-				489E86742296CB45009F4643 /* SlantedView.swift */,
 				489E86462296CB33009F4643 /* AppDelegate.swift */,
 				489E86482296CB33009F4643 /* ViewController.swift */,
 				489E864A2296CB33009F4643 /* Main.storyboard */,
@@ -128,6 +142,29 @@
 			path = SlantedViewUITests;
 			sourceTree = "<group>";
 		};
+		8BD1FEA4926F1C0AAE8CFF61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2148DBF14BCF37B37D62737 /* Pods-SlantedView.debug.xcconfig */,
+				96A0EDD28F81982448CD2E88 /* Pods-SlantedView.release.xcconfig */,
+				EBBEAA1B19BF3E3555584E87 /* Pods-SlantedViewTests.debug.xcconfig */,
+				B96C3758DF789EF451543B3D /* Pods-SlantedViewTests.release.xcconfig */,
+				400D055371C5AF9E21C656AC /* Pods-SlantedViewUITests.debug.xcconfig */,
+				7518E75264E9E796BCE45B33 /* Pods-SlantedViewUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C81170B389DA322C7CFF3A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA08247DEC6D04B8AB9AD6D /* Pods_SlantedView.framework */,
+				B4EB0C12AF5EC86043E3CCDF /* Pods_SlantedViewTests.framework */,
+				D0C52DFAC03470F017AC22DF /* Pods_SlantedViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489E866B2296CB35009F4643 /* Build configuration list for PBXNativeTarget "SlantedView" */;
 			buildPhases = (
+				2AE64701BBBDB4DBF04AA2A4 /* [CP] Check Pods Manifest.lock */,
 				489E863F2296CB33009F4643 /* Sources */,
 				489E86402296CB33009F4643 /* Frameworks */,
 				489E86412296CB33009F4643 /* Resources */,
+				B4D5E09E43D3A318DDF1DFE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489E866E2296CB35009F4643 /* Build configuration list for PBXNativeTarget "SlantedViewTests" */;
 			buildPhases = (
+				A3B55F1AB018BEB13EE1BAF1 /* [CP] Check Pods Manifest.lock */,
 				489E86532296CB35009F4643 /* Sources */,
 				489E86542296CB35009F4643 /* Frameworks */,
 				489E86552296CB35009F4643 /* Resources */,
@@ -170,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489E86712296CB35009F4643 /* Build configuration list for PBXNativeTarget "SlantedViewUITests" */;
 			buildPhases = (
+				9BD466693EB80CAE40D059BD /* [CP] Check Pods Manifest.lock */,
 				489E865E2296CB35009F4643 /* Sources */,
 				489E865F2296CB35009F4643 /* Frameworks */,
 				489E86602296CB35009F4643 /* Resources */,
@@ -254,12 +295,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AE64701BBBDB4DBF04AA2A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlantedView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD466693EB80CAE40D059BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlantedViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B55F1AB018BEB13EE1BAF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlantedViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D5E09E43D3A318DDF1DFE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlantedView/Pods-SlantedView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SBASlantedView/SBASlantedView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SBASlantedView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlantedView/Pods-SlantedView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		489E863F2296CB33009F4643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489E86752296CB45009F4643 /* SlantedView.swift in Sources */,
 				489E86492296CB33009F4643 /* ViewController.swift in Sources */,
 				489E86472296CB33009F4643 /* AppDelegate.swift in Sources */,
 			);
@@ -434,6 +565,7 @@
 		};
 		489E866C2296CB35009F4643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2148DBF14BCF37B37D62737 /* Pods-SlantedView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +583,7 @@
 		};
 		489E866D2296CB35009F4643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A0EDD28F81982448CD2E88 /* Pods-SlantedView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +601,7 @@
 		};
 		489E866F2296CB35009F4643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBEAA1B19BF3E3555584E87 /* Pods-SlantedViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +622,7 @@
 		};
 		489E86702296CB35009F4643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96C3758DF789EF451543B3D /* Pods-SlantedViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +643,7 @@
 		};
 		489E86722296CB35009F4643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400D055371C5AF9E21C656AC /* Pods-SlantedViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +663,7 @@
 		};
 		489E86732296CB35009F4643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7518E75264E9E796BCE45B33 /* Pods-SlantedViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

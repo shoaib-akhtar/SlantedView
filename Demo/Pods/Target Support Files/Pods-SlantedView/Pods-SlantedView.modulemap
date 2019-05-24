@@ -1,0 +1,6 @@
+framework module Pods_SlantedView {
+  umbrella header "Pods-SlantedView-umbrella.h"
+
+  export *
+  module * { export * }
+}

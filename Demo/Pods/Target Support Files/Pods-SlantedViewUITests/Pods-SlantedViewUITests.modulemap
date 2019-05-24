@@ -1,0 +1,6 @@
+framework module Pods_SlantedViewUITests {
+  umbrella header "Pods-SlantedViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

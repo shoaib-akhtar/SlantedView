@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SBASlantedView
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

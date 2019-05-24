@@ -1,0 +1,21 @@
+PODS:
+  - SBASlantedView (1.0)
+
+DEPENDENCIES:
+  - SBASlantedView (from `https://github.com/shoaib-akhtar/SlantedView.git`)
+
+EXTERNAL SOURCES:
+  SBASlantedView:
+    :git: https://github.com/shoaib-akhtar/SlantedView.git
+
+CHECKOUT OPTIONS:
+  SBASlantedView:
+    :commit: 74dc768ce30c247e56e1f2940d05403581df87d7
+    :git: https://github.com/shoaib-akhtar/SlantedView.git
+
+SPEC CHECKSUMS:
+  SBASlantedView: f0929cf613146e6b7fc0c81f70e330fb1b340a7d
+
+PODFILE CHECKSUM: 8cfc2457995a72c037a36f5fce1f9a9e1dfa970e
+
+COCOAPODS: 1.6.1

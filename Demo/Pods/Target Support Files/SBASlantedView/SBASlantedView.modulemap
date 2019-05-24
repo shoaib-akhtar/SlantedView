@@ -1,0 +1,6 @@
+framework module SBASlantedView {
+  umbrella header "SBASlantedView-umbrella.h"
+
+  export *
+  module * { export * }
+}

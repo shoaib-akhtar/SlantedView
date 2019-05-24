@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05758CE47102CF92E617B767154824E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		0B5B06A0E221B3EC5DF2041341C11147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		105BE7398313A3F4158F40FA92DA0637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		1D144B1C1F903A0C49069B8D5A4ADD29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		341897591E6483C919FB17A4A0846904 /* Pods-SlantedViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC7E6602F0294DD9356B2BE213838CC /* Pods-SlantedViewUITests-dummy.m */; };
+		40B9E98033F523C566C098AE6FDCCF21 /* SBASlantedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 094FFAB06D53238A7A7E98188A0E241E /* SBASlantedView-dummy.m */; };
+		5028AE09F10850E9D1F31F007C511206 /* SBASlantedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7C5963A68F933680F82FA4799A53F3 /* SBASlantedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57464986DB309EA09B776A8F4272CA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		6507F76FF95CCECAD984390FA7FD750F /* Pods-SlantedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA36CC11ECA7D652FA7FC4E72E73F85 /* Pods-SlantedView-dummy.m */; };
+		7D4FBE29F404AEE5DFCD97D1E7659CD5 /* Pods-SlantedViewUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 694C05D2FCE6E233E64F481091BBB8CF /* Pods-SlantedViewUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C425AA9CA5EF2173ADBAB9DAB42F9E4 /* Pods-SlantedViewTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAE06E16A7A0B32CA627F3B0CC41C0A /* Pods-SlantedViewTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92DA2B4E6ADEE23CC2D2C94EC062950E /* Pods-SlantedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF83A726BB9EF74C4D58225D4C5D047B /* Pods-SlantedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5FA1850CDA8377BF412585F0E51F46 /* Pods-SlantedViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94913CDD9FE5975234C7E02E7660C213 /* Pods-SlantedViewTests-dummy.m */; };
+		D9E9C17179BF7FD5E782001DCF88BF6B /* SBASlantedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDBD12B9352BBB5FC01728CFD5319B /* SBASlantedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E18EB1C39C58258BB7F9ABD165111F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90C36E70BC90107AE76E5E84D4F86013;
+			remoteInfo = "Pods-SlantedView";
+		};
+		5E58D22EFDD4826401B8D1C75E523408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F31D9B9EF352753F1F49F55AC4DDA2;
+			remoteInfo = SBASlantedView;
+		};
+		7B2956CADC082521D02CA4C748FD19C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90C36E70BC90107AE76E5E84D4F86013;
+			remoteInfo = "Pods-SlantedView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E29B7792106C67920B2E84E2BA2223 /* Pods-SlantedViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlantedViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		094FFAB06D53238A7A7E98188A0E241E /* SBASlantedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBASlantedView-dummy.m"; sourceTree = "<group>"; };
+		0DB9F290BC665FB1CB3CA12584237918 /* Pods-SlantedView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlantedView.release.xcconfig"; sourceTree = "<group>"; };
+		17F1B5ABE395060ED1230BC2B96D1C36 /* Pods_SlantedViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlantedViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1862BF2F4EF52FD83627CF8CC2A978EE /* Pods-SlantedViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlantedViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DAE06E16A7A0B32CA627F3B0CC41C0A /* Pods-SlantedViewTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlantedViewTests-umbrella.h"; sourceTree = "<group>"; };
+		3A3044D04EE05E5BD91D75E8193E838F /* Pods-SlantedViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlantedViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C67ABDC30234005AC3926261FEA60F4 /* SBASlantedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBASlantedView.xcconfig; sourceTree = "<group>"; };
+		40644D0BE177EB2B501FCEAFBC5263DB /* Pods-SlantedViewUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlantedViewUITests-Info.plist"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		421BEDC11B63A5A942C1BB46248047D9 /* Pods-SlantedView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlantedView-frameworks.sh"; sourceTree = "<group>"; };
+		453C1E954CDDCD9644592EAC58088E75 /* Pods-SlantedView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlantedView-acknowledgements.plist"; sourceTree = "<group>"; };
+		47426840EBDD6EAA3A564857A10073BA /* Pods-SlantedView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlantedView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BA36CC11ECA7D652FA7FC4E72E73F85 /* Pods-SlantedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlantedView-dummy.m"; sourceTree = "<group>"; };
+		694C05D2FCE6E233E64F481091BBB8CF /* Pods-SlantedViewUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlantedViewUITests-umbrella.h"; sourceTree = "<group>"; };
+		6B7C5963A68F933680F82FA4799A53F3 /* SBASlantedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBASlantedView-umbrella.h"; sourceTree = "<group>"; };
+		76169327A7EFB7D20D4888578A587FB0 /* Pods-SlantedView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlantedView-Info.plist"; sourceTree = "<group>"; };
+		8DC7E6602F0294DD9356B2BE213838CC /* Pods-SlantedViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlantedViewUITests-dummy.m"; sourceTree = "<group>"; };
+		94913CDD9FE5975234C7E02E7660C213 /* Pods-SlantedViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlantedViewTests-dummy.m"; sourceTree = "<group>"; };
+		9AAD569CBD03F43072373ACA07FAB7B3 /* SBASlantedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBASlantedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2113E7205DC54AAF5606E19A71822BA /* Pods-SlantedViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlantedViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7ABE53B941E4CEF103587E12A3FD83C /* Pods-SlantedViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlantedViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC91D2B4AD9322DA882FB8E6D0D7CA28 /* Pods_SlantedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlantedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83A96E71C93437A8F2AE9316715196B /* Pods-SlantedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlantedView.modulemap"; sourceTree = "<group>"; };
+		BD21BC614931FE9628FACF1E109C6656 /* Pods-SlantedViewTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlantedViewTests-Info.plist"; sourceTree = "<group>"; };
+		BF83A726BB9EF74C4D58225D4C5D047B /* Pods-SlantedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlantedView-umbrella.h"; sourceTree = "<group>"; };
+		C122B2539B62333FA100C253D5202BFD /* Pods_SlantedViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlantedViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F6B3DDE4A253A92792BE2C2ED72654 /* Pods-SlantedViewUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlantedViewUITests.modulemap"; sourceTree = "<group>"; };
+		E0AFFBF0896FDF1A9885B84B789B1931 /* SBASlantedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBASlantedView-prefix.pch"; sourceTree = "<group>"; };
+		E4241F989DA0491C418D419980234591 /* Pods-SlantedViewTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlantedViewTests.modulemap"; sourceTree = "<group>"; };
+		EA49FA4F01CA1F7B989773B75BB0AD9A /* Pods-SlantedViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlantedViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAD58A51C96C7CE55FE6446B6454AED3 /* Pods-SlantedViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlantedViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF44ED08618EF2BA71873E4C722D1E51 /* Pods-SlantedView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlantedView.debug.xcconfig"; sourceTree = "<group>"; };
+		F8E0DFD8BD410A306C23DFAAD55AD3C4 /* SBASlantedView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SBASlantedView-Info.plist"; sourceTree = "<group>"; };
+		F8FDBD12B9352BBB5FC01728CFD5319B /* SBASlantedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBASlantedView.swift; path = SBASlantedView/SBASlantedView.swift; sourceTree = "<group>"; };
+		FB25BF2A582AA45A20F3421DC9120571 /* Pods-SlantedViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlantedViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC407210FACB56AF1A2839E9D9E969FC /* SBASlantedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SBASlantedView.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17770FE74F282C4ABE6EB5958873C906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105BE7398313A3F4158F40FA92DA0637 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233913698AC11CEC376ABA1CA9049775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57464986DB309EA09B776A8F4272CA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23863CE46699A1317EDC0A817C0F6C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05758CE47102CF92E617B767154824E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5DA810717B626BA6F3A477AF0615BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5B06A0E221B3EC5DF2041341C11147 /* Foundation.framework in Frameworks */,
+				1D144B1C1F903A0C49069B8D5A4ADD29 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD081E820A89EA2C96C21D39EFDBF34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62625D968048DD77D062071E8D337B05 /* Pods-SlantedView */,
+				38D83A1002CB921EAA0780EB8D75D7F5 /* Pods-SlantedViewTests */,
+				34327E8119A49449004836EA81B8341E /* Pods-SlantedViewUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34327E8119A49449004836EA81B8341E /* Pods-SlantedViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6B3DDE4A253A92792BE2C2ED72654 /* Pods-SlantedViewUITests.modulemap */,
+				3A3044D04EE05E5BD91D75E8193E838F /* Pods-SlantedViewUITests-acknowledgements.markdown */,
+				A7ABE53B941E4CEF103587E12A3FD83C /* Pods-SlantedViewUITests-acknowledgements.plist */,
+				8DC7E6602F0294DD9356B2BE213838CC /* Pods-SlantedViewUITests-dummy.m */,
+				40644D0BE177EB2B501FCEAFBC5263DB /* Pods-SlantedViewUITests-Info.plist */,
+				694C05D2FCE6E233E64F481091BBB8CF /* Pods-SlantedViewUITests-umbrella.h */,
+				1862BF2F4EF52FD83627CF8CC2A978EE /* Pods-SlantedViewUITests.debug.xcconfig */,
+				FB25BF2A582AA45A20F3421DC9120571 /* Pods-SlantedViewUITests.release.xcconfig */,
+			);
+			name = "Pods-SlantedViewUITests";
+			path = "Target Support Files/Pods-SlantedViewUITests";
+			sourceTree = "<group>";
+		};
+		38D83A1002CB921EAA0780EB8D75D7F5 /* Pods-SlantedViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4241F989DA0491C418D419980234591 /* Pods-SlantedViewTests.modulemap */,
+				A2113E7205DC54AAF5606E19A71822BA /* Pods-SlantedViewTests-acknowledgements.markdown */,
+				EA49FA4F01CA1F7B989773B75BB0AD9A /* Pods-SlantedViewTests-acknowledgements.plist */,
+				94913CDD9FE5975234C7E02E7660C213 /* Pods-SlantedViewTests-dummy.m */,
+				BD21BC614931FE9628FACF1E109C6656 /* Pods-SlantedViewTests-Info.plist */,
+				2DAE06E16A7A0B32CA627F3B0CC41C0A /* Pods-SlantedViewTests-umbrella.h */,
+				EAD58A51C96C7CE55FE6446B6454AED3 /* Pods-SlantedViewTests.debug.xcconfig */,
+				05E29B7792106C67920B2E84E2BA2223 /* Pods-SlantedViewTests.release.xcconfig */,
+			);
+			name = "Pods-SlantedViewTests";
+			path = "Target Support Files/Pods-SlantedViewTests";
+			sourceTree = "<group>";
+		};
+		5E7FF287A37FD90ACB6DE74AA32D34B1 /* SBASlantedView */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDBD12B9352BBB5FC01728CFD5319B /* SBASlantedView.swift */,
+				E4A482F1A74DB4B70D0C77ED8374C4C1 /* Support Files */,
+			);
+			path = SBASlantedView;
+			sourceTree = "<group>";
+		};
+		62625D968048DD77D062071E8D337B05 /* Pods-SlantedView */ = {
+			isa = PBXGroup;
+			children = (
+				B83A96E71C93437A8F2AE9316715196B /* Pods-SlantedView.modulemap */,
+				47426840EBDD6EAA3A564857A10073BA /* Pods-SlantedView-acknowledgements.markdown */,
+				453C1E954CDDCD9644592EAC58088E75 /* Pods-SlantedView-acknowledgements.plist */,
+				5BA36CC11ECA7D652FA7FC4E72E73F85 /* Pods-SlantedView-dummy.m */,
+				421BEDC11B63A5A942C1BB46248047D9 /* Pods-SlantedView-frameworks.sh */,
+				76169327A7EFB7D20D4888578A587FB0 /* Pods-SlantedView-Info.plist */,
+				BF83A726BB9EF74C4D58225D4C5D047B /* Pods-SlantedView-umbrella.h */,
+				EF44ED08618EF2BA71873E4C722D1E51 /* Pods-SlantedView.debug.xcconfig */,
+				0DB9F290BC665FB1CB3CA12584237918 /* Pods-SlantedView.release.xcconfig */,
+			);
+			name = "Pods-SlantedView";
+			path = "Target Support Files/Pods-SlantedView";
+			sourceTree = "<group>";
+		};
+		86BBBB64531805C304AC572DEB16CDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC91D2B4AD9322DA882FB8E6D0D7CA28 /* Pods_SlantedView.framework */,
+				C122B2539B62333FA100C253D5202BFD /* Pods_SlantedViewTests.framework */,
+				17F1B5ABE395060ED1230BC2B96D1C36 /* Pods_SlantedViewUITests.framework */,
+				9AAD569CBD03F43072373ACA07FAB7B3 /* SBASlantedView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				E9A68784054C4448EA156C98F1DAED3F /* Pods */,
+				86BBBB64531805C304AC572DEB16CDEF /* Products */,
+				0CD081E820A89EA2C96C21D39EFDBF34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4A482F1A74DB4B70D0C77ED8374C4C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC407210FACB56AF1A2839E9D9E969FC /* SBASlantedView.modulemap */,
+				3C67ABDC30234005AC3926261FEA60F4 /* SBASlantedView.xcconfig */,
+				094FFAB06D53238A7A7E98188A0E241E /* SBASlantedView-dummy.m */,
+				F8E0DFD8BD410A306C23DFAAD55AD3C4 /* SBASlantedView-Info.plist */,
+				E0AFFBF0896FDF1A9885B84B789B1931 /* SBASlantedView-prefix.pch */,
+				6B7C5963A68F933680F82FA4799A53F3 /* SBASlantedView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SBASlantedView";
+			sourceTree = "<group>";
+		};
+		E9A68784054C4448EA156C98F1DAED3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E7FF287A37FD90ACB6DE74AA32D34B1 /* SBASlantedView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10065F1447130F21F62DEB22B3C2D57D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DA2B4E6ADEE23CC2D2C94EC062950E /* Pods-SlantedView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C5C3DC2B4F889E1BF8C4AC9FFBC5994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C425AA9CA5EF2173ADBAB9DAB42F9E4 /* Pods-SlantedViewTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781AC9614A3743E9EEBB8B0AEC6979D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028AE09F10850E9D1F31F007C511206 /* SBASlantedView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA93E3BA5DF49DBBB8ED7E53FB8AC325 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4FBE29F404AEE5DFCD97D1E7659CD5 /* Pods-SlantedViewUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A6CE502C029474775A87FF4A0A7702C /* Pods-SlantedViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C2CAD4B67173ED3C35BEAB7013BEA9 /* Build configuration list for PBXNativeTarget "Pods-SlantedViewUITests" */;
+			buildPhases = (
+				FA93E3BA5DF49DBBB8ED7E53FB8AC325 /* Headers */,
+				7662F3982C99DB1E74A1BC9E622D6A03 /* Sources */,
+				233913698AC11CEC376ABA1CA9049775 /* Frameworks */,
+				ED632FDF0090623B6B96622F30744B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E0FBA8562B0B72CBFE3DA528ED8D5F /* PBXTargetDependency */,
+			);
+			name = "Pods-SlantedViewUITests";
+			productName = "Pods-SlantedViewUITests";
+			productReference = 17F1B5ABE395060ED1230BC2B96D1C36 /* Pods_SlantedViewUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82F31D9B9EF352753F1F49F55AC4DDA2 /* SBASlantedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACC092510869A1139D1A9FE42E8D5DD /* Build configuration list for PBXNativeTarget "SBASlantedView" */;
+			buildPhases = (
+				781AC9614A3743E9EEBB8B0AEC6979D6 /* Headers */,
+				1456D10B483A40155E27BE2511F49C57 /* Sources */,
+				CE5DA810717B626BA6F3A477AF0615BF /* Frameworks */,
+				34373D60F098DD8002C50D208FD85BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBASlantedView;
+			productName = SBASlantedView;
+			productReference = 9AAD569CBD03F43072373ACA07FAB7B3 /* SBASlantedView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90C36E70BC90107AE76E5E84D4F86013 /* Pods-SlantedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C42707A542F45607D8B62131C0AA1A /* Build configuration list for PBXNativeTarget "Pods-SlantedView" */;
+			buildPhases = (
+				10065F1447130F21F62DEB22B3C2D57D /* Headers */,
+				1951B068694DF5337DDFD201E866605D /* Sources */,
+				17770FE74F282C4ABE6EB5958873C906 /* Frameworks */,
+				A8204F42CBD24454BC5D5FD5E00A1B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6A2CA0D836224F1389B3063E301C42 /* PBXTargetDependency */,
+			);
+			name = "Pods-SlantedView";
+			productName = "Pods-SlantedView";
+			productReference = AC91D2B4AD9322DA882FB8E6D0D7CA28 /* Pods_SlantedView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0C383618691D12748A5E083CA2DC768 /* Pods-SlantedViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0B3374C406FEC2F710B406226282B3 /* Build configuration list for PBXNativeTarget "Pods-SlantedViewTests" */;
+			buildPhases = (
+				6C5C3DC2B4F889E1BF8C4AC9FFBC5994 /* Headers */,
+				9AAE6FFEC4526DC2CE9E81A506698888 /* Sources */,
+				23863CE46699A1317EDC0A817C0F6C1E /* Frameworks */,
+				7414993A7768BC65BF90B564DDC46632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA6FC7F1F366E7DB94E81ADB0D1C223 /* PBXTargetDependency */,
+			);
+			name = "Pods-SlantedViewTests";
+			productName = "Pods-SlantedViewTests";
+			productReference = C122B2539B62333FA100C253D5202BFD /* Pods_SlantedViewTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 86BBBB64531805C304AC572DEB16CDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90C36E70BC90107AE76E5E84D4F86013 /* Pods-SlantedView */,
+				B0C383618691D12748A5E083CA2DC768 /* Pods-SlantedViewTests */,
+				4A6CE502C029474775A87FF4A0A7702C /* Pods-SlantedViewUITests */,
+				82F31D9B9EF352753F1F49F55AC4DDA2 /* SBASlantedView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34373D60F098DD8002C50D208FD85BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7414993A7768BC65BF90B564DDC46632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8204F42CBD24454BC5D5FD5E00A1B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED632FDF0090623B6B96622F30744B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1456D10B483A40155E27BE2511F49C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B9E98033F523C566C098AE6FDCCF21 /* SBASlantedView-dummy.m in Sources */,
+				D9E9C17179BF7FD5E782001DCF88BF6B /* SBASlantedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1951B068694DF5337DDFD201E866605D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6507F76FF95CCECAD984390FA7FD750F /* Pods-SlantedView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7662F3982C99DB1E74A1BC9E622D6A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341897591E6483C919FB17A4A0846904 /* Pods-SlantedViewUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAE6FFEC4526DC2CE9E81A506698888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5FA1850CDA8377BF412585F0E51F46 /* Pods-SlantedViewTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F6A2CA0D836224F1389B3063E301C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBASlantedView;
+			target = 82F31D9B9EF352753F1F49F55AC4DDA2 /* SBASlantedView */;
+			targetProxy = 5E58D22EFDD4826401B8D1C75E523408 /* PBXContainerItemProxy */;
+		};
+		C4E0FBA8562B0B72CBFE3DA528ED8D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SlantedView";
+			target = 90C36E70BC90107AE76E5E84D4F86013 /* Pods-SlantedView */;
+			targetProxy = 2E18EB1C39C58258BB7F9ABD165111F9 /* PBXContainerItemProxy */;
+		};
+		CFA6FC7F1F366E7DB94E81ADB0D1C223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SlantedView";
+			target = 90C36E70BC90107AE76E5E84D4F86013 /* Pods-SlantedView */;
+			targetProxy = 7B2956CADC082521D02CA4C748FD19C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7AA74E74E1A66363292EA425A67C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E29B7792106C67920B2E84E2BA2223 /* Pods-SlantedViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlantedViewTests/Pods-SlantedViewTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlantedViewTests/Pods-SlantedViewTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		110B61AF9DEACB335F927674D8F4785C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C67ABDC30234005AC3926261FEA60F4 /* SBASlantedView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SBASlantedView/SBASlantedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBASlantedView/SBASlantedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SBASlantedView/SBASlantedView.modulemap";
+				PRODUCT_MODULE_NAME = SBASlantedView;
+				PRODUCT_NAME = SBASlantedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44A7B58C506796CAEBDC160326AEC8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB25BF2A582AA45A20F3421DC9120571 /* Pods-SlantedViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlantedViewUITests/Pods-SlantedViewUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlantedViewUITests/Pods-SlantedViewUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9BE2BC26991985722081BC3D8A9FF48A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB9F290BC665FB1CB3CA12584237918 /* Pods-SlantedView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlantedView/Pods-SlantedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlantedView/Pods-SlantedView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC4FAF29CFB2836341D87CC24AF192B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1862BF2F4EF52FD83627CF8CC2A978EE /* Pods-SlantedViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlantedViewUITests/Pods-SlantedViewUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlantedViewUITests/Pods-SlantedViewUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3B681777F74760893591A121000E6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF44ED08618EF2BA71873E4C722D1E51 /* Pods-SlantedView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlantedView/Pods-SlantedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlantedView/Pods-SlantedView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7ABE87CC5637299514FEE9D818C4230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C67ABDC30234005AC3926261FEA60F4 /* SBASlantedView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SBASlantedView/SBASlantedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBASlantedView/SBASlantedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SBASlantedView/SBASlantedView.modulemap";
+				PRODUCT_MODULE_NAME = SBASlantedView;
+				PRODUCT_NAME = SBASlantedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1777E9F4567C1AA3825D12889E50188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD58A51C96C7CE55FE6446B6454AED3 /* Pods-SlantedViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlantedViewTests/Pods-SlantedViewTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlantedViewTests/Pods-SlantedViewTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C42707A542F45607D8B62131C0AA1A /* Build configuration list for PBXNativeTarget "Pods-SlantedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B681777F74760893591A121000E6BA /* Debug */,
+				9BE2BC26991985722081BC3D8A9FF48A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACC092510869A1139D1A9FE42E8D5DD /* Build configuration list for PBXNativeTarget "SBASlantedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110B61AF9DEACB335F927674D8F4785C /* Debug */,
+				C7ABE87CC5637299514FEE9D818C4230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0B3374C406FEC2F710B406226282B3 /* Build configuration list for PBXNativeTarget "Pods-SlantedViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1777E9F4567C1AA3825D12889E50188 /* Debug */,
+				0F7AA74E74E1A66363292EA425A67C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C2CAD4B67173ED3C35BEAB7013BEA9 /* Build configuration list for PBXNativeTarget "Pods-SlantedViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4FAF29CFB2836341D87CC24AF192B6 /* Debug */,
+				44A7B58C506796CAEBDC160326AEC8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
