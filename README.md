@@ -4,7 +4,7 @@ SBASlantedView is a simple and easy-to-use Slanted View for your iOS apps writte
 ![CocoaPods](https://cocoapod-badges.herokuapp.com/v/SBASlantedView/badge.png)
 
 
-[![](https://raw.githubusercontent.com/shoaib-akhtar/SBASlantedView/master/images/1.PNG)](https://raw.githubusercontent.com/shoaib-akhtar/SBASlantedView/master/images/1.PNG)
+[![](https://raw.githubusercontent.com/shoaib-akhtar/SlantedView/master/images/1.png)](https://raw.githubusercontent.com/shoaib-akhtar/SlantedView/master/images/1.PNG)
 
 
 Installation
